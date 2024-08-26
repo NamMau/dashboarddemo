@@ -1,0 +1,35 @@
+/* Styles for the Courselist component */
+
+/* Basic container styling */
+.courselist-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+/* Course item styling */
+.course-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Course title styling */
+.course-item h3 {
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #343a40;
+}
+
+/* Course description styling */
+.course-item p {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+/* Hover effect for course items */
+.course-item:hover {
+    background-color: #e9ecef;
+    border-color: #ced4da;
+}
